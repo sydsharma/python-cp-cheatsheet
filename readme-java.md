@@ -14,7 +14,7 @@ Predictable performance, strong typing, rich stdlib, great for interviews.
 1. [Loops](#loops)
 1. [Strings](#strings)
 1. [Slicing](#slicing)
-1. [Tuple](#tuple)
+1. [Tuples](#tuple)
 1. [Sort](#sort)
 1. [Hash](#hash)
 1. [Set](#set)
@@ -38,7 +38,7 @@ Predictable performance, strong typing, rich stdlib, great for interviews.
 1. [map](#map)
 1. [filter](#filter)
 1. [reduce](#reduce)
-1. [regex](#regular-expression)
+1. [regular expression](#regular-expression)
 1. [Types](#types)
 1. [Grids](#grids)
 
@@ -71,7 +71,7 @@ Predictable performance, strong typing, rich stdlib, great for interviews.
 1. [Events](#events)
 1. [Merge Meetings](#merge-meetings)
 1. [Trie](#trie)
-1. [Kadane's Algorithm](#kadane)
+1. [Kadane's Algorithm - Max subarray sum](#kadane)
 1. [Union Find/DSU](#union-find)
 1. [Fast Power](#fast-power)
 1. [Fibonacci Golden](#fibonacci-golden)
@@ -79,7 +79,6 @@ Predictable performance, strong typing, rich stdlib, great for interviews.
 1. [Reverse Polish](#reverse-polish)
 1. [Reservoir Sampling](#reservoir-sampling)
 1. [Candy Crush](#candy-crush)
-1. [Dutch Flag](#dutch-flag)
 
 # Language Mechanics
 
@@ -881,4 +880,3 @@ String removeDuplicates(String s, int k){ Deque<int[]> st=new ArrayDeque<>(); fo
 ```java
 void sortColors(int[] a){ int p0=0, cur=0, p2=a.length-1; while(cur<=p2){ if(a[cur]==0){ int t=a[p0]; a[p0]=a[cur]; a[cur]=t; p0++; cur++; } else if(a[cur]==2){ int t=a[cur]; a[cur]=a[p2]; a[p2]=t; p2--; } else cur++; } }
 ```
-
